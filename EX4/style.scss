@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+    font-size: 200%;
+    color: grey;
+}
+
+.date{
+    font-size: 200%;
+    text-align: center;
+    border-radius: 15%;
+    background-color: red;
+    #day{
+        color: white;
+        font-size: 110%;
+    }
+    
+    #dayNum{
+        background-color: white;
+        color: gray;
+        font-size: 175%;
+        height: 60px;
+    }
+    #month{
+        background-color: white;
+        color: grey;
+    }
+    #year{
+        color: white;
+        font-size: 110%;
+    }
+}
+
